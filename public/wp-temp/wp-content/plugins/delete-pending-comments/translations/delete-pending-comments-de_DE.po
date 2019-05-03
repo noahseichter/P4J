@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/delete-pending-comments\n"
+"POT-Creation-Date: 2009-10-17 10:09+0000\n"
+"PO-Revision-Date: 2009-10-11 17:37+0200\n"
+"Last-Translator: Nicolas Kuttler <wp@nicolaskuttler.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:28 inc/admin.php:68 inc/admin.php:83
+msgid "Delete Pending Comments"
+msgstr "Lösche unveröffentlichte Kommentare"
+
+#: inc/admin.php:36
+msgid ""
+"I am sure I want to delete all pending comments and realize this can't be "
+"undone"
+msgstr ""
+"Ich bin sicher dass ich alle unveröffentlichten Kommentare löschen will "
+"und bin mir darüber im klaren dass dies nicht Rückgängig gemacht werden "
+"kann"
+
+#: inc/admin.php:52
+msgid "I deleted all pending comments!"
+msgstr "Ich habe alle bisher unveröffentlichten Kommentare gelöscht"
+
+#: inc/admin.php:57
+msgid "Please try again. Did you copy the text properly?"
+msgstr "Versuchen Sie es bitte noch ein mal. Haben Sie den Text vollständig kopiert?"
+
+#: inc/admin.php:63
+msgid "It looks like there aren't any pending comments!"
+msgstr "Es sieht so aus als ob es keine unveröffentlichten Kommentare gibt!"
+
+#: inc/admin.php:72
+msgid ""
+"You have to type the following text into the form to delete all pending "
+"comments:"
+msgstr ""
+"Sie müssen den folgenden Text in das Eingabefeld kopieren um alle "
+"unveröffenlichten Kommentare zu löschen:"
+
+#: inc/nkuttler.php:24
+msgid "Do you like this plugin?"
+msgstr "Gefällt Ihnen dieses plugin?"
+
+#: inc/nkuttler.php:32
+#, php-format
+msgid "<a href=\"%s\">Vote</a> for it"
+msgstr "<a href=\"%s\">Stimmen</a> Sie für es ab"
+
+#: inc/nkuttler.php:35
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Besuchen</a> Sie seine Webseite"
+
+#: inc/nkuttler.php:38
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonnieren</a> Sie den feed"
+
+#: inc/nkuttler.php:41
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: inc/nkuttler.php:44
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mein <a href=\"%s\">Blog</a>"
+
+#: inc/nkuttler.php:47
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr ""
+"Abonnieren Sie den <a href=\"%s\">RSS feed</a> (als <a href=\"%s\">E-Mail</a>)"
+
+#: inc/nkuttler.php:51
+msgid "My other plugins"
+msgstr "Meine anderen plugins"
+
+#. Plugin URI of an extension
+msgid "http://www.nkuttler.de/wordpress/delete-pending-comments/"
+msgstr "http://www.nicolaskuttler.de/wordpress/unveroeffentlichte-kommentare-loeschen/"
+
+#. Description of an extension
+msgid ""
+"A quick way to delete all pending comments. Useful for victims of spammer "
+"attacks."
+msgstr ""
+"Ein schneller Weg alle unveröffentlichten Kommentare zu löschen. "
+"Nützlich für die Opfer von Spam-Angriffen."
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nicolaskuttler.de/"

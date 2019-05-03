@@ -1,0 +1,579 @@
+{
+  "1":
+  {
+    "domain_name": "Domain 1: P4J Health & Physical Development",
+    
+    "Criteria": [
+      {
+        "type": "headers",
+        "0": "",
+        "1": "Emerging",
+        "2": "Developing",
+        "3": "Accomplishing",
+        "4": "Exceeding"
+      },
+      {
+        "type": "rubric_title",
+        "title": "Physical Health and Well Being"
+      },
+      {
+        "type": "rubric",
+        "1": "Dependent on Adult",
+        "2": "Dresses with mininmal assistance",
+        "3": "Dresses self independently/needs assistance with zipper",
+        "4": "Dresses and zips independently",
+        "name": "dresses",
+        "header": "Dresses/Undresses"
+      },
+      {
+        "type": "rubric",
+        "1": "Physical Assistance needed",
+        "2": "Attempts to wash/needs guidance",
+        "3": "Washes and dries hands completely when prompted",
+        "4": "Washes hands regularly without prompting",
+        "name": "washes_hands",
+        "header": "Washes hands"
+      },
+      {
+        "type": "rubric_title",
+        "title": "Large Motor Development"
+      },
+      {
+        "type": "rubric",
+        "1": "In a defined space-uncoordinated movements",
+        "2": "In a defined space-moves with little control/little awareness of surroundings",
+        "3": "In a defined space-moves with purpose and control",
+        "name": "moves",
+        "header": "Moves with control."
+      },
+      {
+        "type": "rubric",
+        "1": "No jumping motion",
+        "2": "Jumps 1 or 2 feet take off/1 foot landing",
+        "3": "Jumps with control/2 feet take off and landing",
+        "name": "jumps",
+        "header": "Jumps over line with 2 feet."
+      },
+      {
+        "type": "rubric",
+        "1": "Attempts to balance",
+        "2": "Balances 1-4 seconds",
+        "3": "Balances 5 or more seconds",
+        "4": "Balances for 10 or more seconds",
+        "name": "balances",
+        "header": "Balances on one foot."
+      },
+      {
+        "type": "rubric",
+        "1": "Misses ball when attempted",
+        "2": "Kicks ball with only forward motion-push",
+        "3": "Kicks ball with backward and forward motion",
+        "name": "kicks",
+        "header": "Kicks stationary playground ball."
+      },
+      {
+        "type": "rubric",
+        "1": "Misses the ball when attempts to catch",
+        "2": "Traps ball against body when catching",
+        "3": "Catches ball with hands away from body",
+        "name": "catches",
+        "header": "Catches playground ball."
+      },
+      {
+        "type": "rubric",
+        "1": "Attempts to throw but no forward motion",
+        "2": "Throws with forward motion but off target",
+        "3": "Throws with control and accuracy",
+        "name": "throws",
+        "header": "Throws a small ball or bean bag overhand with accuracy."
+      },
+      {
+        "type": "rubric_title",
+        "title": "Fine Motor Skills"
+      },
+      {
+        "type": "rubric",
+        "1": "Snips paper",
+        "2": "Cuts a shape but needs assistance (cues-thumb up, hold paper)",
+        "3": "Cuts a simple shape within 1/4-inch line independently",
+        "name": "scissors",
+        "header": "Uses scissors."
+      },
+      {
+        "type": "rubric",
+        "1": "Attempts to copy shapes",
+        "2": "Copy 1-2 shapes",
+        "3": "Copy 3-4 shapes",
+        "4": "Copy 5-6 shapes",
+        "name": "copies_shapes",
+        "header": "Copies shapes."
+      },
+      {
+        "type": "rubric",
+        "1": "Draw a person with 1-2 body parts",
+        "2": "Draw a person with 3-4 body parts",
+        "3": "Draw a person with 5-6 distinguishable and connected body parts",
+        "4": "Draw a person with distinguishable and connected head, body, eyes, nose, mouth, arms, legs",
+        "name": "draws_person",
+        "header": "Draws a person."
+      },
+      {
+        "type": "dual_option",
+        "1": "NO",
+        "2": "YES",
+        "name": "states_caregiver",
+        "header": "Can state care giver's name when asked (Is your mom's name ___?)"
+      },
+      {
+        "type": "dual_option",
+        "1": "NO",
+        "2": "YES",
+        "name": "recognizes_caregiver",
+        "header": "Recognizes care giver's name when heard (Who takes care of you at home?)"
+      },
+      {
+        "type": "tri_option",
+        "1": "Left",
+        "2": "Right",
+        "3": "Undecided",
+        "name": "hand_dominance",
+        "header": "Select hand dominance: "
+      },
+      {
+        "type": "tri_option",
+        "1": "Fist",
+        "2": "Modified",
+        "3": "Pincer",
+        "name": "pencil_grip",
+        "header": "Select pencil grip: "
+      }
+    ]
+  },
+  "2":
+  {
+    "domain_name": "Domain 2: P4J Social & Emotional Development",
+    "Criteria": [
+      {
+        "type": "headers",
+        "0": "I can...",
+        "1": "Emerging",
+        "2": "Developing",
+        "3": "Accomplishing",
+        "4": "Exceeding"
+      },
+      {
+        "type": "rubric",
+        "1": "Has difficulty differentiating one emotion from another",
+        "2": "With verbal cue (are you feeling sad, or you look angry. Is that how you feel?) identifies when they are feeling happy, sad or angry ",
+        "3": "Verbally identifies when they are feeling happy, sad or angry independently or when asked how they are feeling",
+        "4": "Verbally identifies additional emotions when experiencing them (ie,frustrated, surprised, etc.)",
+        "name": "express_emotions",
+        "header": "Express different emotions"
+      },
+      {
+        "type": "rubric",
+        "1": "No or little control over emotional reactions even with prompt from adult",
+        "2": "Gains control of emotions when prompted by an adult ",
+        "3": "Emotional response is developmentally appropriate to most situations",
+        "4": "Emotional response is developmentally appropriate to all situations",
+        "name": "control_emotions",
+        "header": "Demonstrate control of my emotions"
+      },
+      {
+        "type": "rubric",
+        "1": "Does not respond/is not aware of others feelings ",
+        "2": "Is able to identify/recognize the feelings of others",
+        "3": "Uses words or actions to comfort others when they are distressed",
+        "4": "Takes additional  action to improve the situation to try to assist others when they are distressed",
+        "name": "empathy",
+        "header": "Demonstrate empathy"
+      },
+      {
+        "type": "rubric",
+        "1": "Engages in solitary or parallel play only (plays next to others not with them)",
+        "2": "Interacts with one child at a time",
+        "3": "Interacts with more than one child at a time",
+        "4": "Interacts with multiple children in multiple situations ",
+        "name": "coop_play",
+        "header": "Participate in cooperative play"
+      },
+      {
+        "type": "rubric",
+        "1": "Needs continuous adult prompting & support",
+        "2": "Responds to direction with 1- 2 verbal prompts",
+        "3": "Follows routines independently",
+        "name": "follow_routines",
+        "header": "Follow classroom routines"
+      },
+      {
+        "type": "rubric",
+        "1": "Needs continuous adult prompting & support",
+        "2": "Responds to direction with 1- 2 verbal prompts",
+        "3": "Follows rules independently",
+        "name": "follow_rules",
+        "header": "Follow classroom rules"
+      },
+      {
+        "type": "rubric",
+        "1": "Unable to solve problems with appropriate words/actions ",
+        "2": "Needs teacher coaching to solve conflicts",
+        "3": "Able to suggest possible solutions to conflict with teacher prompting and  then follows through independently to solve the conflict",
+        "4": "Able to solve conflicts independently ",
+        "name": "solve_conflicts",
+        "header": "Solve conflicts with peers"
+      },
+      {
+        "type": "dual_option",
+        "1": "NO",
+        "2": "YES",
+        "name": "respects_self",
+        "header": "Respects her/himself"
+      },
+      {
+        "type": "dual_option",
+        "1": "NO",
+        "2": "YES",
+        "name": "respects_others",
+        "header": "Respects others"
+      },
+      {
+        "type": "dual_option",
+        "1": "NO",
+        "2": "YES",
+        "name": "respects_materials",
+        "header": "Respects materials/school environment "
+      },
+      {
+        "type": "dual_option",
+        "1": "NO",
+        "2": "YES",
+        "name": "accepts_responsibility",
+        "header": "Accepts responsibility for his/her actions"
+      },
+      {
+        "type": "dual_option",
+        "1": "NO",
+        "2": "YES",
+        "name": "uses_manners",
+        "header": "Uses manners with prompting"
+      }
+    ]
+  },
+  "3":
+  {
+    "domain_name": "Domain 3: P4J Language & Literacy Development",
+    "Criteria": [
+      {
+        "type": "headers",
+        "0": "I can...",
+        "1": "Emerging",
+        "2": "Developing",
+        "3": "Accomplishing",
+        "4": "Exceeding"
+      },
+      {
+        "type": "rubric",
+        "1": "Follow a single direction with adult assistance",
+        "2": "Follow a single direction or two-step directions with reminders",
+        "3": "Independently follow two step directions",
+        "4": "Independently follow multi-step directions",
+        "name": "follow_directions",
+        "header": "Follow directions"
+      },
+      {
+        "type": "rubric",
+        "1": "Does not respond or responds nonverbally",
+        "2": "Respond verbally with prompting or provides an off-topic response",
+        "3": "Provide a verbal, on topic response",
+        "4": "Provide a detailed response",
+        "name": "responds",
+        "header": "Respond to requests for information and questions when asked"
+      },
+      {
+        "type": "rubric",
+        "1": "Express self non-verbally or using one or two words",
+        "2": "Express self using 3-4 phrases and sentences",
+        "3": "Express self using five to six word sentences ",
+        "4": "More words? Or more sentences?",
+        "name": "expresses_self",
+        "header": "Express self using words phrases and/or complete thoughts"
+      },
+      {
+        "type": "rubric",
+        "1": "Attempt to sequence an event with assistance",
+        "2": "Sequence three steps of an activity with support",
+        "3": "Sequence three steps of an activity",
+        "4": "Sequence four steps of an activity",
+        "name": "sequence_steps",
+        "header": "Sequence steps of an activity (encourage student to verbalize, but don’t score explanation)"
+      },
+      {
+        "type": "rubric",
+        "1": "Need assistance to recognize first name in print.",
+        "2": "Recognize only first letter of name in print.",
+        "3": "Recognize first name in print",
+        "4": "Recognize friends’ names in print",
+        "name": "recognize_name",
+        "header": "Recognize name in print"
+      },
+      {
+        "type": "rubric",
+        "1": "Name 0-1 letter of first name",
+        "2": "Name 2-4 letters of first name",
+        "3": "Name all or at least 5 letters of first name in random order",
+        "name": "letter_in_name",
+        "header": "Name the letters in my name"
+      },
+      {
+        "type": "rubric",
+        "1": "Recognizes 0-5 letters",
+        "2": "Recognizes 6-11 letters",
+        "3": "Recognizes 12-21 letters",
+        "4": "Recognizes 22-26 letters",
+        "name": "recognize_uppercase",
+        "header": "Recognize capital/Upper Case letters"
+      },
+      {
+        "type": "rubric",
+        "1": "Recognizes 0-5 letter sounds",
+        "2": "Recognizes 6-11 letter sounds",
+        "3": "Recognizes 12-21 letter sounds",
+        "4": "Recognizes 22-26 letter sounds",
+        "name": "recognize_letter_sounds",
+        "header": "Recognize/Produce Letter sounds"
+      },
+    {
+      "type": "dual_option",
+      "1": "NO",
+      "2": "YES",
+      "name": "books",
+      "header": "Looks at books only when teacher initiates"
+    },
+    {
+      "type": "dual_option",
+      "1": "NO",
+      "2": "YES",
+      "name": "story_time",
+      "header": "Participates in story time (filling in words and phrases), teacher initiated"
+    },
+    {
+      "type": "dual_option",
+      "1": "NO",
+      "2": "YES",
+      "name": "books_independently",
+      "header": "Looks at books independently"
+    },
+    {
+      "type": "dual_option",
+      "1": "NO",
+      "2": "YES",
+      "name": "pretend_reads",
+      "header": "Pretend reads"
+    },
+    {
+      "type": "rubric_title",
+      "title": "Upper Case Letters"
+    },
+    {
+      "type": "rubric_selection",
+      "name": "letters",
+      "fields": ["A", "B", "C", "D", "E", 
+                 "F", "G", "H", "I", "J", 
+                 "K", "L", "M", "N", "O", 
+                 "P", "Q", "R", "S", "T", 
+                 "U", "V", "W", "X", "Y", 
+                 "Z"]
+    },
+    {
+      "type": "rubric_title",
+      "title": "Letter Sounds"
+    },
+    {
+      "type": "rubric_selection",
+      "name": "letter_sounds",
+      "fields": ["A", "B", "C", "D", "E", 
+                 "F", "G", "H", "I", "J", 
+                 "K", "L", "M", "N", "O", 
+                 "P", "Q", "R", "S", "T", 
+                 "U", "V", "W", "X", "Y", 
+                 "Z", "Ch", "Sh", "Th"]
+    }
+  ]
+  },
+  "4":
+  {
+    "domain_name": "Domain 4: P4J Approaches to Learning",
+    "Criteria": [
+      {
+        "type": "semester_option",
+        "1": "Fall",
+        "2": "Spring",
+        "name": "curiosity",
+        "header": "Displays curiosity, risk-taking, and willingness to engage in new experiences"
+      },
+      {
+        "type": "semester_option",
+        "1": "Fall",
+        "2": "Spring",
+        "name": "actions",
+        "header": " Watches and imitates the actions of others"
+      },
+      {
+        "type": "semester_option",
+        "1": "Fall",
+        "2": "Spring",
+        "name": "real_use",
+        "header": "Uses objects in pretend play as they are used in real life"
+      },
+      {
+        "type": "semester_option",
+        "1": "Fall",
+        "2": "Spring",
+        "name": "imaginative_use",
+        "header": "Uses objects in pretend play in an imaginative way (ie: block as phone, kleenex as blanket)"
+      },
+      {
+        "type": "semester_option",
+        "1": "Fall",
+        "2": "Spring",
+        "name": "supported_activity",
+        "header": "Persists with an activity when supported by an adult"
+      },
+      {
+        "type": "semester_option",
+        "1": "Fall",
+        "2": "Spring",
+        "name": "independent_action",
+        "header": "Persists with an activity independently through completion"
+      }
+    ]
+  },
+  "5":
+  {
+    "domain_name": "Domain 5: P4J Cognition & General Knowledge",
+    "Criteria": [
+      {
+        "type": "headers",
+        "0": "I can...",
+        "1": "Emerging",
+        "2": "Developing",
+        "3": "Accomplishing",
+        "4": "Exceeding"
+      },
+      {
+        "type": "rubric",
+        "1": "Counts 0-4 objects one at a time",
+        "2": "Counts 5-7 objects one at a time",
+        "3": "Counts 8-10 objects one at a time",
+        "4": "Counts more than 10 objects one at a time",
+        "name": "count_object",
+        "header": "Count Objects"
+      },
+      {
+        "type": "rubric",
+        "1": "Counts 0 to 4",
+        "2": "Counts 5- 12",
+        "3": "Counts to 13-15",
+        "4": "Counts  15+",
+        "name": "count_outloud",
+        "header": "Count Out-Loud"
+      },
+      {
+        "type": "rubric",
+        "1": "Names 0 - 4 random numbers",
+        "2": "Names 5 - 7 random numbers",
+        "3": "Names 8 – 10 random numbers",
+        "4": "Names 11 or more random numbers",
+        "name": "identify_numbers",
+        "header": "Identify Numbers"
+      },
+      {
+        "type": "rubric_selection",
+        "name": "numbers",
+        "fields": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ]
+      },
+      {
+        "type": "rubric",
+        "1": "Attempts to make sets of objects when asked",
+        "2": "Gives the teacher two objects, three objects, or four objects when asked",
+        "3": "Gives the teacher five objects when asked",
+        "4": "Gives the teacher six or more objects when asked",
+        "name": "make_sets",
+        "header": "Make sets"
+      },
+      {
+        "type": "rubric",
+        "1": "Names 0 - 1 shapes",
+        "2": "Names 2 shapes",
+        "3": "Names 3 shapes",
+        "4": "Names 4 or more shapes (rectangle, oval, hexagon…)",
+        "name": "name_shapes",
+        "header": "Name Shapes"
+      },
+      {
+        "type": "rubric_selection",
+        "name": "shapes",
+        "fields": [ "Triangle", "Square", "Circle", "Rectangle", "Diamond", "Oval", "Hexagon" ]
+      },
+      {
+        "type": "rubric",
+        "1": "Names 0 - 1 color",
+        "2": "Names 2 - 4 colors",
+        "3": "Names 5 - 7 colors",
+        "4": "Names 8 or more colors",
+        "name": "name_colors",
+        "header": "Name Colors"
+      },
+      {
+        "type": "rubric_selection",
+        "name": "colors",
+        "fields": [ "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "White", "Black", "Pink", "Grey", "Brown" ]
+      },
+      {
+        "type": "rubric",
+        "1": "Compares two sets of objects and recognizes 1 of the following: more, less, same",
+        "2": "Compares two sets of objects and recognizes 2 of the following: more, less, same",
+        "3": "Compares two sets of objects and recognizes more, less, same",
+        "4": "Compares two sets of objects and can identify how many more or less is in the set",
+        "name": "recognize_lms",
+        "header": "Recognize less, more and the same"
+      },
+      {
+        "type": "rubric",
+        "1": "Demonstrates  0 – 1 of the   directions/ locations",
+        "2": "Demonstrates 2 of the directions/ locations",
+        "3": "Demonstrates 3 of the directions/ locations",
+        "4": "Demonstrates 4 or more of the directions/ locations",
+        "name": "understand_direction",
+        "header": "Understand direction and location (behind, below, over, under, above, on, next to…)"
+      },
+      {
+        "type": "rubric",
+        "1": "Demonstrates zero or one of the three concepts",
+        "2": "Demonstrates two of the three concepts",
+        "3": "Demonstrates three of the three concepts",
+        "4": "In addition, puts 3 or more objects in order using one of the concepts (ie: short, med, tall, small, med, large)",
+        "name": "compare_height",
+        "header": "Compare height (taller/shorter), length (longer, shorter), weight (heavier, lighter) of two objects"
+      },
+      {
+        "type": "rubric",
+        "1": "Attempts to make groups",
+        "2": "Sorts objects by one attribute with support (cues, prompts)",
+        "3": "Sorts objects by one attribute independently",
+        "4": "Sorts objects by more than one attribute or can explain",
+        "name": "sort_objects",
+        "header": "Sort objects into groups"
+      },
+      {
+        "type": "rubric",
+        "1": "Attempts to make a pattern",
+        "2": "Copies a pattern following a model (e.g., red blue red blue)",
+        "3": "Extends a pattern (e.g., red blue red blue . . . what’s next?)",
+        "4": "Creates a pattern independently",
+        "name": "makes_patterns",
+        "header": "Make patterns"
+      }
+    ]
+  }
+}

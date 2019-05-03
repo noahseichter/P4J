@@ -1,0 +1,410 @@
+:root {
+  --fall-color: #e3342e;
+  --winter-color: #3490dc;
+  --spring-color: #38c172;
+}
+
+#navigation-tabs {
+	margin-top: 10px ;
+}
+
+.nav-tabs {
+	float: left;
+	width: 100%;
+	margin: 0;
+	list-style-type: none;
+	border-bottom: 1px solid #777 !important;
+}
+
+.nav-tabs > li {
+	float: left;
+	margin-bottom: 0px;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	margin-right: 10px;
+	border-radius: 3px 3px 0 0;
+	background: #ddd;
+	
+}
+
+.nav-tabs > li > a {
+	line-height: 1.5;
+	padding: 8px 15px;
+	border-radius: 4px 4px 0 0;
+	float: left;
+	text-decoration: none;
+	color: black !important;
+}
+
+.nav-tabs > li > a:hover {
+	border-color: #eee #eee #ddd;
+	
+}
+
+.nav-tabs > li.active {
+	border-top: 1px solid #777;
+	border-right: 1px solid #777;
+	border-left: 1px solid #777;
+	margin-bottom: -1px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	color: #555;
+	cursor: default;
+	background-color: #fff;
+	border-bottom: 1px solid transparent;
+}
+
+.tab-pane {
+	margin-bottom: 20px;
+}
+
+
+.tab-content > .tab-pane { 
+	float: left;
+	width: 100%;
+	display: none;
+	
+}
+
+.tab-content > .tab-pane.active {
+	display: block;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 5px 4px -2px rgba(0,0,0,0.15);
+	border-radius: 0 0 6px 6px;
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	border-bottom: 1px solid #777;
+}
+
+.rubric-tile {
+	border: 1px solid #bebebe;
+	border-radius: 6px;
+	display: flex;
+	padding: 10px;
+	min-height: 130px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: calc(20% - 3px);
+	margin: 5px 3px 5px 0;
+}
+
+.dual-option-row {
+	display: flex;
+	height: 80px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	border-bottom: 1px solid #bebebe;
+	padding-bottom: 8px;
+}
+
+.tri-option-row {
+	display: flex;
+	height: 80px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	border-bottom: 1px solid #bebebe;
+	padding-bottom: 8px;
+}
+
+.dual-option-tile {
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #bebebe;
+	border-radius: 6px;
+	margin: 5px 3px 5px 0;
+}
+
+.semester-option-tile {
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #bebebe;
+	border-radius: 6px;
+	margin: 5px 3px 5px 0;
+}
+
+.tri-option-tile {
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #bebebe;
+	border-radius: 6px;
+	margin: 5px 3px 5px 0;
+}
+
+.headers {
+	width: 20%;
+}
+
+.table-tr,
+.table-td {
+	cursor: pointer;
+}
+
+.table-td:hover {
+	background-color: #eeeeee;
+}
+
+.eval-form .rubric-tile.criteria,
+.eval-form .semester-option-tile,
+.eval-form .dual-option-tile,
+.eval-form .tri-option-tile,
+.eval-form .rubric-selection {
+	cursor: pointer;
+}
+
+.rubric-selection {
+	height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rubric-tile.empty {
+	background-color: #bebebe;
+}
+
+.semester-option-tile.fall,
+.rubric-selection.fall,
+.rubric-tile.fall,
+.dual-option-tile.fall,
+.tri-option-tile.fall {
+	background-color: var(--fall-color);
+	color: white;
+}
+
+.rubric-selection.fall.winter,
+.rubric-tile.fall.winter,
+.dual-option-tile.fall.winter,
+.tri-option-tile.fall.winter {
+	background-color: var(--winter-color);
+	border: 8px solid var(--fall-color);
+	color: white;
+}
+
+.rubric-selection.fall.spring,
+.rubric-tile.fall.spring,
+.dual-option-tile.fall.spring,
+.tri-option-tile.fall.spring {
+	background-color: var(--spring-color);
+	border: 8px solid var(--fall-color);
+	color: white;
+}
+
+.rubric-selection.winter,
+.rubric-tile.winter,
+.dual-option-tile.winter,
+.tri-option-tile.winter {
+	background-color: var(--winter-color);
+	color: white;
+}
+
+.rubric-selection.winter.spring,
+.rubric-tile.winter.spring,
+.dual-option-tile.winter.spring,
+.tri-option-tile.winter.spring {
+	background-color: var(--spring-color);
+	border: 8px solid var(--winter-color);
+	color: white;
+}
+
+.semester-option-tile.spring,
+.rubric-selection.spring,
+.rubric-tile.spring,
+.dual-option-tile.spring,
+.tri-option-tile.spring {
+	background-color: var(--spring-color);
+	color: white;
+}
+
+.rubric-selection.fall.winter.spring,
+.rubric-tile.fall.winter.spring,
+.dual-option-tile.fall.winter.spring,
+.tri-option-tile.fall.winter.spring {
+	background-color: var(--spring-color);
+	border-top: 8px solid var(--fall-color);
+	border-left: 8px solid var(--fall-color);
+	border-right: 8px solid var(--winter-color);
+	border-bottom: 8px solid var(--winter-color);
+	color: white;
+}
+
+.letters {
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.letter {
+	font-size: 24px;
+	font-weight: bold;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.numbers {
+	width: 6.25%;
+	margin: auto;
+}
+
+.shapes {
+	width: 14.25%;
+	margin: auto;
+}
+
+.colors {
+	width: 9%;
+	margin: auto;
+}
+
+.login-image {
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.button-row {
+	margin: 10px;
+	margin-bottom: 10px;
+	margin-top: 18px;
+}
+
+.button-row div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.domain-button {
+	width: 60%;
+	height: 80px;
+	font-size: 28px;
+}
+
+.login-button {
+	width: 70%;
+}
+
+.domain-buttons {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.domain-buttons div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.eval-button{
+	width: 200px;
+}
+
+.student-info,
+.user-info {
+	margin-top: 20px;
+}
+
+.student-info {
+	margin-bottom: 10px;
+}
+
+.delete-user {
+	margin-left: 8px;
+}
+
+.domain-headers {
+	margin-top: 15px;
+}
+
+.domain-info-row {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.domain-info-container {
+	width: 200px;
+}
+
+.domain-info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.go-back {
+	width: 150px;
+	margin: 10px;
+}
+
+.vertical-align {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.date-input {
+	width: 160px;
+}
+
+.student-class {
+	width: 70px;
+	margin-left: 10px;
+}
+
+table.dataTable thead th,
+table.dataTable tfoot td,
+table.dataTable.no-footer {
+	border-bottom: none;
+}
+
+.fall-count {
+	color: var(--fall-color);
+	font-size: 24px;
+}
+
+.winter-count {
+	color: var(--winter-color);
+	font-size: 24px;
+}
+
+.spring-count {
+	color: var(--spring-color);
+	font-size: 24px;
+}
+
+.criteria:hover .evaluation-counts {
+	display: none;
+}
+
+.evaluation-criteria {
+	display: none;
+}
+
+.criteria:hover .evaluation-criteria {
+	display: block;
+}

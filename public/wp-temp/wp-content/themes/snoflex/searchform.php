@@ -1,0 +1,1 @@
+<?php sno_display_search ();
