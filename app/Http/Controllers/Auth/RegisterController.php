@@ -41,6 +41,11 @@ class RegisterController extends Controller
         //$this->middleware('admin');
     }
 
+    public function showRegistrationForm()
+    {
+        return redirect('login');
+    }
+
     /**
      * Get a validator for an incoming registration request.
      *
