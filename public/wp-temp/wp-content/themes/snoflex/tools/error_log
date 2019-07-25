@@ -1,7 +1,0 @@
-[03-Apr-2017 14:25:24 America/Detroit] PHP Warning:  Unterminated comment starting line 4 in /home/flex/public_html/wp-content/themes/snoflex/tools/init.php on line 4
-[03-Apr-2017 14:27:59 America/Detroit] PHP Warning:  Unterminated comment starting line 6 in /home/flex/public_html/wp-content/themes/snoflex/tools/init.php on line 6
-[03-Apr-2017 14:27:59 America/Detroit] PHP Fatal error:  Call to undefined function update_option() in /home/flex/public_html/wp-content/themes/snoflex/tools/init.php on line 5
-[03-Apr-2017 14:28:17 America/Detroit] PHP Warning:  Unterminated comment starting line 8 in /home/flex/public_html/wp-content/themes/snoflex/tools/init.php on line 8
-[03-Apr-2017 14:28:17 America/Detroit] PHP Fatal error:  Call to undefined function update_option() in /home/flex/public_html/wp-content/themes/snoflex/tools/init.php on line 5
-[03-Apr-2017 14:28:19 America/Detroit] PHP Warning:  Unterminated comment starting line 8 in /home/flex/public_html/wp-content/themes/snoflex/tools/init.php on line 8
-[03-Apr-2017 14:28:19 America/Detroit] PHP Fatal error:  Call to undefined function update_option() in /home/flex/public_html/wp-content/themes/snoflex/tools/init.php on line 5

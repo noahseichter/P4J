@@ -1,2 +1,0 @@
-[18-Mar-2017 14:49:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/youareho/public_html/wp-content/themes/snoflex/404.php on line 1
-[24-Mar-2017 03:56:05 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/youareho/public_html/wp-content/themes/snoflex/404.php on line 1
