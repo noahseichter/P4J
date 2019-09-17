@@ -85,7 +85,12 @@
                                     <strong>Teacher:</strong> {{ $fall_all->user_name }} ({{$fall_all->class}})<br>
                                     <strong>Created:</strong> {{ date('M d, Y', $fall_all->created_at->timestamp) }}<br>
                                     <strong>Status:</strong> {{ ($fall_all->status === 1) ? 'Complete' : 'In Progress' }}
-                                    <a href="/student/{{$student->id}}/domain/edit/{{$fall_all->id}}">(edit)</a>
+                                    <a href="/student/{{$student->id}}/domain/edit/{{$fall_all->id}}">(edit)</a><br>
+                                    <form method="POST" action="{{route('student.domain.destroy', [$student->id, $fall_all->id])}}"> 
+                                        @csrf 
+                                        {{ method_field('DELETE') }} 
+                                        <input class="btn btn-outline-danger delete-user" value="Delete" type="submit" style="width:100px">
+                                    </form>
                                     @endif
                                 </div></div>
                                 <div class='col-4 domain-info'><div class='domain-info-container'>
@@ -95,6 +100,11 @@
                                     <strong>Created:</strong> {{ date('M d, Y', $winter_all->created_at->timestamp) }}<br>
                                     <strong>Status:</strong> {{ ($winter_all->status === 1) ? 'Complete' : 'In Progress' }}<br>
                                     <a href="/student/{{$student->id}}/domain/edit/{{$winter_all->id}}">(edit)</a>
+                                    <form method="POST" action="{{route('student.domain.destroy', [$student->id, $winter_all->id])}}"> 
+                                        @csrf 
+                                        {{ method_field('DELETE') }} 
+                                        <input class="btn btn-outline-danger delete-user" value="Delete" type="submit" style="width:100px">
+                                    </form>
                                     @endif
                                 @endif
                                 </div></div>
@@ -104,6 +114,11 @@
                                     <strong>Created:</strong> {{ date('M d, Y', $spring_all->created_at->timestamp) }}<br>
                                     <strong>Status:</strong> {{ ($spring_all->status === 1) ? 'Complete' : 'In Progress' }}
                                     <a href="/student/{{$student->id}}/domain/edit/{{$spring_all->id}}">(edit)</a>
+                                    <form method="POST" action="{{route('student.domain.destroy', [$student->id, $spring_all->id])}}"> 
+                                        @csrf 
+                                        {{ method_field('DELETE') }} 
+                                        <input class="btn btn-outline-danger delete-user" value="Delete" type="submit" style="width:100px">
+                                    </form>
                                     @endif
                                 </div></div>
                             </div>

@@ -377,12 +377,12 @@
     {
       "type": "rubric_selection",
       "name": "letters",
-      "fields": ["A", "B", "C", "D", "E", 
-                 "F", "G", "H", "I", "J", 
-                 "K", "L", "M", "N", "O", 
-                 "P", "Q", "R", "S", "T", 
-                 "U", "V", "W", "X", "Y", 
-                 "Z"]
+      "fields": ["M", "G", "S", "I", "B", 
+                 "X", "L", "Q", "H", "W", 
+                 "T", "R", "J", "C", "O", 
+                 "V", "P", "F", "D", "U", 
+                 "A", "Y", "N", "Z", "K", 
+                 "E"]
     },
     {
       "type": "rubric_title",
@@ -391,12 +391,12 @@
     {
       "type": "rubric_selection",
       "name": "letter_sounds",
-      "fields": ["A", "B", "C", "D", "E", 
-                 "F", "G", "H", "I", "J", 
-                 "K", "L", "M", "N", "O", 
-                 "P", "Q", "R", "S", "T", 
-                 "U", "V", "W", "X", "Y", 
-                 "Z", "Ch", "Sh", "Th"]
+      "fields": ["B", "S", "R", "F", "W", 
+                 "T", "O", "J", "A", "H", 
+                 "K", "Sh", "V", "I", "P", 
+                 "Z", "L", "C", "Th", "U", 
+                 "E", "D", "Y", "G", "N", 
+                 "Ch", "Q", "X", "M"]
     }
   ]
   },

@@ -126,9 +126,7 @@ class DomainController extends Controller
         $action = $request->action;
         
         $status = ($action === 'save') ? 0 : 1;
-		
-		
-		
+
         $eval = Evaluation::create([
             'domain' => $domain_id,
             'semester' => $request->semester,
@@ -246,7 +244,6 @@ class DomainController extends Controller
      */
     public function destroy($user_id, $id)
     {
-        //
         $domain = Evaluation::findOrFail($id)->domain;
 
         Evaluation::destroy($id);
