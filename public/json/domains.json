@@ -121,15 +121,15 @@
         "type": "dual_option",
         "1": "NO",
         "2": "YES",
-        "name": "states_caregiver",
-        "header": "Can state care giver's name when asked (Is your mom's name ___?)"
+        "name": "recognizes_caregiver",
+        "header": "Recognizes care giver's name when heard (Is your mom's name ___?)"
       },
       {
         "type": "dual_option",
         "1": "NO",
         "2": "YES",
-        "name": "recognizes_caregiver",
-        "header": "Recognizes care giver's name when heard (Who takes care of you at home?)"
+        "name": "states_caregiver",
+        "header": "Can state care giver's name when asked (Who takes care of you at home?)"
       },
       {
         "type": "tri_option",
