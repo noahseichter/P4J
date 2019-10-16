@@ -127,14 +127,14 @@ class DomainController extends Controller
         
         $status = ($action === 'save') ? 0 : 1;
 
-        $eval = Evaluation::create([
+        $eval = Evaluation::updateOrCreate([
             'domain' => $domain_id,
             'semester' => $request->semester,
-            'user_id' => auth()->user()->id,
-            'student_id' => $student_id,
-            'status' => $status,
-            'created_at' => $request->date,
             'class' => $request->class,
+            'student_id' => $student_id],
+            ['status' => $status,
+            'created_at' => $request->date,
+            'user_id' => auth()->user()->id,
             'comments' => ($request->comments == null) ? '' : $request->comments
         ]);
 
@@ -144,10 +144,10 @@ class DomainController extends Controller
 
             $value = ($value == null) ? 0 : $value;
 
-            Criteria::create([
+            Criteria::updateOrCreate([
                 'evaluation_id' => $eval->id,
-                'field_name' => $key,
-                'score' => $value
+                'field_name' => $key],
+                ['score' => $value
             ]);
 
         }
